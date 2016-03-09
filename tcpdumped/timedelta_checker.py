@@ -11,7 +11,7 @@ TIME_FMT = '%H:%M:%S.%f'
 
 
 def check_tcpdump_by_time(dumped, max_delta):
-    """Iterate thru file and compares time delta between sequential."""
+    """Iterate thru file and measure packets' timestamp consistencies."""
     with open(dumped) as tcpdump:
         previous_time, previous_delta = None, None
         for line in tcpdump:
