@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 TIME_FMT = '%H:%M:%S.%f'
 
 
-def check_tcpdump_by_time(dumped, max_delta):
+def timestamp_interval_consistent(dumped, max_delta):
     """Iterate thru file and measure packets' timestamp consistencies."""
     with open(dumped) as tcpdump:
         previous_time, previous_delta = None, None
@@ -57,5 +57,5 @@ def cli_args():
 
 if __name__ == '__main__':
     ARGS = cli_args()
-    if check_tcpdump_by_time(ARGS.location, ARGS.max_delta):
+    if timestamp_interval_consistent(ARGS.location, ARGS.max_delta):
         sys.exit(1)
