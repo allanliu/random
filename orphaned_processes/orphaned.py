@@ -23,14 +23,14 @@ def kill_cpu(child=False):
         md5er.digest()
 
 
-def eat_memory(child=False):
+def eat_resource(child=False):
     """Create memory consuming child processes.
 
     Spawns a child process on first with option
     """
     if child:
         Process(
-            target=eat_memory,
+            target=eat_resource,
         ).start()
     while True:
         try:
@@ -40,10 +40,10 @@ def eat_memory(child=False):
             continue
 
 
-def run(orphans, seconds, memory):
+def run(orphans, seconds, balance):
     """Spin up a new process and kills itself to orphan children."""
-    if memory:
-        target = eat_memory
+    if balance:
+        target = eat_resource
     else:
         target = kill_cpu
     processes = []
@@ -59,7 +59,6 @@ def run(orphans, seconds, memory):
     time.sleep(seconds)
     for process in processes:
         process.terminate()
-    print 'PPID: {0}'.format(os.getpid())
 
 
 def cli_args():
@@ -82,9 +81,9 @@ def cli_args():
         default=1,
     )
     parser.add_argument(
-        '--memory',
+        '--balance',
         action='store_true',
-        dest='memory',
+        dest='balance',
         default=False,
     )
     return parser.parse_args()
@@ -92,4 +91,4 @@ def cli_args():
 
 if __name__ == '__main__':
     ARGS = cli_args()
-    run(ARGS.orphans, ARGS.seconds, ARGS.memory)
+    run(ARGS.orphans, ARGS.seconds, ARGS.balance)
