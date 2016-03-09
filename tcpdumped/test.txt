@@ -1,0 +1,390 @@
+17:48:44.995449 IP 65.17.211.65.syslog > adm103.permissiondata.com.syslog: SYSLOG local3.warning, length: 146
+17:48:44.995620 IP adm103.permissiondata.com.3072026970 > nfs01.permissiondata.com.nfs: 140 getattr fh Unknown/0100000100FD000105C013000BC01300C1AEF7CB000000000000000000000000
+17:48:44.995958 IP nfs01.permissiondata.com.nfs > adm103.permissiondata.com.3072026970: reply ok 112 getattr REG 100600 ids 0/0 sz 10324706
+17:48:44.995978 IP adm103.permissiondata.com.ha-cluster > nfs01.permissiondata.com.nfs: Flags [.], ack 2350833003, win 24478, length 0
+17:48:45.725530 IP 10.0.1.113.36640 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 1923327003, win 26883, options [mss 1350,sackOK,TS val 1768046462 ecr 0,nop,wscale 7], length 0
+17:48:45.725559 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36640: Flags [S.], seq 2423405831, ack 1923327004, win 5792, options [mss 1460,sackOK,TS val 1224226348 ecr 1768046462,nop,wscale 7], length 0
+17:48:45.725669 IP adm103.permissiondata.com.53833 > resolver2.datapipe.net.domain: 14988+ PTR? 113.1.0.10.in-addr.arpa. (41)
+17:48:45.726177 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.53833: 14988 NXDomain 0/1/0 (90)
+17:48:45.731195 ARP, Request who-has 65.17.211.121 tell 65.17.211.65, length 46
+17:48:45.731377 IP adm103.permissiondata.com.34716 > resolver2.datapipe.net.domain: 57396+ PTR? 121.211.17.65.in-addr.arpa. (44)
+17:48:45.732700 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.34716: 57396 NXDomain 0/1/0 (107)
+17:48:45.734774 IP 10.0.1.113.36640 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046464 ecr 1224226348], length 0
+17:48:45.734807 IP 10.0.1.113.36640 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:33, ack 1, win 211, options [nop,nop,TS val 1768046464 ecr 1224226348], length 32
+17:48:45.734822 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36640: Flags [.], ack 33, win 46, options [nop,nop,TS val 1224226358 ecr 1768046464], length 0
+17:48:45.734976 IP adm103.permissiondata.com.37797 > resolver2.datapipe.net.domain: 31217+ A? zbx.internal.permissiondata.com. (49)
+17:48:45.734987 IP adm103.permissiondata.com.37797 > resolver2.datapipe.net.domain: 929+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:45.735081 ARP, Request who-has 65.17.211.99 tell mx1.pdoffers.com, length 46
+17:48:45.735259 IP adm103.permissiondata.com.34827 > resolver2.datapipe.net.domain: 7181+ PTR? 99.211.17.65.in-addr.arpa. (43)
+17:48:45.735545 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.37797: 31217 1/0/0 A 10.0.1.113 (65)
+17:48:45.735557 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.37797: 929 0/1/0 (131)
+17:48:45.735677 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.34827: 7181 NXDomain 0/1/0 (106)
+17:48:45.735885 IP adm103.permissiondata.com.46460 > resolver2.datapipe.net.domain: 41709+ PTR? 70.211.17.65.in-addr.arpa. (43)
+17:48:45.736356 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.46460: 41709 1/0/0 PTR mx1.pdoffers.com. (73)
+17:48:45.745338 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36640: Flags [P.], seq 1:6, ack 33, win 46, options [nop,nop,TS val 1224226368 ecr 1768046464], length 5
+17:48:45.745359 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36640: Flags [FP.], seq 6:18, ack 33, win 46, options [nop,nop,TS val 1224226368 ecr 1768046464], length 12
+17:48:45.752457 ARP, Request who-has 65.17.211.118 tell 65.17.211.65, length 46
+17:48:45.752468 ARP, Request who-has mx6.pdoffers.com tell 65.17.211.65, length 46
+17:48:45.752662 IP adm103.permissiondata.com.57797 > resolver2.datapipe.net.domain: 55848+ PTR? 118.211.17.65.in-addr.arpa. (44)
+17:48:45.753168 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.57797: 55848 NXDomain 0/1/0 (107)
+17:48:45.753359 IP adm103.permissiondata.com.35004 > resolver2.datapipe.net.domain: 53496+ PTR? 126.211.17.65.in-addr.arpa. (44)
+17:48:45.753821 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.35004: 53496 1/0/0 PTR mx6.pdoffers.com. (74)
+17:48:45.754575 IP 10.0.1.113.36640 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046469 ecr 1224226368], length 0
+17:48:45.754598 IP 10.0.1.113.36640 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 33, ack 19, win 211, options [nop,nop,TS val 1768046469 ecr 1224226368], length 0
+17:48:45.754614 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36640: Flags [.], ack 34, win 46, options [nop,nop,TS val 1224226377 ecr 1768046469], length 0
+17:48:45.758323 IP 10.0.1.113.36652 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 22655824, win 26883, options [mss 1350,sackOK,TS val 1768046470 ecr 0,nop,wscale 7], length 0
+17:48:45.758350 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36652: Flags [S.], seq 2435080732, ack 22655825, win 5792, options [mss 1460,sackOK,TS val 1224226381 ecr 1768046470,nop,wscale 7], length 0
+17:48:45.767717 IP 10.0.1.113.36652 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046472 ecr 1224226381], length 0
+17:48:45.767747 IP 10.0.1.113.36652 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:25, ack 1, win 211, options [nop,nop,TS val 1768046472 ecr 1224226381], length 24
+17:48:45.767763 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36652: Flags [.], ack 25, win 46, options [nop,nop,TS val 1224226391 ecr 1768046472], length 0
+17:48:45.767990 IP adm103.permissiondata.com.58617 > resolver2.datapipe.net.domain: 20801+ A? zbx.internal.permissiondata.com. (49)
+17:48:45.768001 IP adm103.permissiondata.com.58617 > resolver2.datapipe.net.domain: 38382+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:45.768476 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.58617: 20801 1/0/0 A 10.0.1.113 (65)
+17:48:45.768491 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.58617: 38382 0/1/0 (131)
+17:48:45.768569 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36652: Flags [P.], seq 1:6, ack 25, win 46, options [nop,nop,TS val 1224226391 ecr 1768046472], length 5
+17:48:45.768581 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36652: Flags [FP.], seq 6:22, ack 25, win 46, options [nop,nop,TS val 1224226391 ecr 1768046472], length 16
+17:48:45.777930 IP 10.0.1.113.36652 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046475 ecr 1224226391], length 0
+17:48:45.777952 IP 10.0.1.113.36652 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 25, ack 23, win 211, options [nop,nop,TS val 1768046475 ecr 1224226391], length 0
+17:48:45.777967 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36652: Flags [.], ack 26, win 46, options [nop,nop,TS val 1224226401 ecr 1768046475], length 0
+17:48:45.901702 ARP, Request who-has 65.17.211.118 tell 65.17.211.65, length 46
+17:48:46.219064 IP 10.0.1.113 > adm103.permissiondata.com: ICMP echo request, id 7280, seq 0, length 64
+17:48:46.219088 IP adm103.permissiondata.com > 10.0.1.113: ICMP echo reply, id 7280, seq 0, length 64
+17:48:46.462206 IP 10.90.4.0 > 65.17.211.64: ICMP echo request, id 1, seq 35138, length 12
+17:48:46.462345 IP adm103.permissiondata.com.38720 > resolver2.datapipe.net.domain: 10956+ PTR? 64.211.17.65.in-addr.arpa. (43)
+17:48:46.462349 IP 65.17.211.65.syslog > adm103.permissiondata.com.syslog: SYSLOG local3.warning, length: 126
+17:48:46.462844 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.38720: 10956 NXDomain 0/1/0 (106)
+17:48:46.463042 IP adm103.permissiondata.com.57136 > resolver2.datapipe.net.domain: 10336+ PTR? 0.4.90.10.in-addr.arpa. (40)
+17:48:46.463529 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.57136: 10336 NXDomain 0/1/0 (89)
+17:48:46.550148 STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 82c3.00:17:0f:ed:a5:c0.8081, length 43
+17:48:46.735762 ARP, Request who-has 65.17.211.99 tell mx1.pdoffers.com, length 46
+17:48:46.752502 ARP, Request who-has 65.17.211.121 tell 65.17.211.65, length 46
+17:48:46.752512 ARP, Request who-has 65.17.211.99 tell 65.17.211.65, length 46
+17:48:46.752515 ARP, Request who-has db102.permissiondata.com tell 65.17.211.65, length 46
+17:48:46.752518 ARP, Request who-has 65.17.211.109 tell 65.17.211.65, length 46
+17:48:46.752521 ARP, Request who-has 65.17.211.87 tell 65.17.211.65, length 46
+17:48:46.752524 ARP, Request who-has db01.permissiondata.com tell 65.17.211.65, length 46
+17:48:46.752657 IP adm103.permissiondata.com.52011 > resolver2.datapipe.net.domain: 33325+ PTR? 109.211.17.65.in-addr.arpa. (44)
+17:48:46.753227 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.52011: 33325 NXDomain 0/1/0 (107)
+17:48:46.753418 IP adm103.permissiondata.com.47073 > resolver2.datapipe.net.domain: 20188+ PTR? 87.211.17.65.in-addr.arpa. (43)
+17:48:46.753905 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.47073: 20188 NXDomain 0/1/0 (106)
+17:48:46.754029 IP adm103.permissiondata.com.36520 > resolver2.datapipe.net.domain: 47858+ PTR? 100.211.17.65.in-addr.arpa. (44)
+17:48:46.754505 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.36520: 47858 1/0/0 PTR db01.permissiondata.com. (81)
+17:48:46.778946 IP 10.0.1.113.36665 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 741361354, win 26883, options [mss 1350,sackOK,TS val 1768046725 ecr 0,nop,wscale 7], length 0
+17:48:46.778973 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36665: Flags [S.], seq 2455992842, ack 741361355, win 5792, options [mss 1460,sackOK,TS val 1224227402 ecr 1768046725,nop,wscale 7], length 0
+17:48:46.788365 IP 10.0.1.113.36665 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046728 ecr 1224227402], length 0
+17:48:46.788395 IP 10.0.1.113.36665 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:34, ack 1, win 211, options [nop,nop,TS val 1768046728 ecr 1224227402], length 33
+17:48:46.788411 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36665: Flags [.], ack 34, win 46, options [nop,nop,TS val 1224227411 ecr 1768046728], length 0
+17:48:46.788551 IP adm103.permissiondata.com.53497 > resolver2.datapipe.net.domain: 3404+ A? zbx.internal.permissiondata.com. (49)
+17:48:46.788561 IP adm103.permissiondata.com.53497 > resolver2.datapipe.net.domain: 29621+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:46.789019 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.53497: 29621 0/1/0 (131)
+17:48:46.789034 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.53497: 3404 1/0/0 A 10.0.1.113 (65)
+17:48:46.789430 IP 10.0.1.113.36667 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 3148542978, win 26883, options [mss 1350,sackOK,TS val 1768046728 ecr 0,nop,wscale 7], length 0
+17:48:46.789448 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36667: Flags [S.], seq 2446724875, ack 3148542979, win 5792, options [mss 1460,sackOK,TS val 1224227412 ecr 1768046728,nop,wscale 7], length 0
+17:48:46.795794 IP 10.0.1.113.36670 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 653522183, win 26883, options [mss 1350,sackOK,TS val 1768046729 ecr 0,nop,wscale 7], length 0
+17:48:46.795820 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36670: Flags [S.], seq 2441897791, ack 653522184, win 5792, options [mss 1460,sackOK,TS val 1224227419 ecr 1768046729,nop,wscale 7], length 0
+17:48:46.798674 IP 10.0.1.113.36667 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046730 ecr 1224227412], length 0
+17:48:46.798705 IP 10.0.1.113.36667 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:22, ack 1, win 211, options [nop,nop,TS val 1768046730 ecr 1224227412], length 21
+17:48:46.798720 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36667: Flags [.], ack 22, win 46, options [nop,nop,TS val 1224227422 ecr 1768046730], length 0
+17:48:46.798876 IP adm103.permissiondata.com.59811 > resolver2.datapipe.net.domain: 20607+ A? zbx.internal.permissiondata.com. (49)
+17:48:46.798890 IP adm103.permissiondata.com.59811 > resolver2.datapipe.net.domain: 21720+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:46.799080 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36665: Flags [P.], seq 1:6, ack 34, win 46, options [nop,nop,TS val 1224227422 ecr 1768046728], length 5
+17:48:46.799098 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36665: Flags [FP.], seq 6:20, ack 34, win 46, options [nop,nop,TS val 1224227422 ecr 1768046728], length 14
+17:48:46.799385 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.59811: 20607 1/0/0 A 10.0.1.113 (65)
+17:48:46.799398 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.59811: 21720 0/1/0 (131)
+17:48:46.799582 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36667: Flags [P.], seq 1:6, ack 22, win 46, options [nop,nop,TS val 1224227422 ecr 1768046730], length 5
+17:48:46.799595 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36667: Flags [FP.], seq 6:23, ack 22, win 46, options [nop,nop,TS val 1224227422 ecr 1768046730], length 17
+17:48:46.805062 IP 10.0.1.113.36670 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046732 ecr 1224227419], length 0
+17:48:46.805089 IP 10.0.1.113.36670 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:25, ack 1, win 211, options [nop,nop,TS val 1768046732 ecr 1224227419], length 24
+17:48:46.805105 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36670: Flags [.], ack 25, win 46, options [nop,nop,TS val 1224227428 ecr 1768046732], length 0
+17:48:46.805236 IP adm103.permissiondata.com.56293 > resolver2.datapipe.net.domain: 50733+ A? zbx.internal.permissiondata.com. (49)
+17:48:46.805246 IP adm103.permissiondata.com.56293 > resolver2.datapipe.net.domain: 25231+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:46.805723 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.56293: 50733 1/0/0 A 10.0.1.113 (65)
+17:48:46.805737 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.56293: 25231 0/1/0 (131)
+17:48:46.805809 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36670: Flags [P.], seq 1:6, ack 25, win 46, options [nop,nop,TS val 1224227429 ecr 1768046732], length 5
+17:48:46.805821 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36670: Flags [FP.], seq 6:22, ack 25, win 46, options [nop,nop,TS val 1224227429 ecr 1768046732], length 16
+17:48:46.808512 IP 10.0.1.113.36665 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046733 ecr 1224227422], length 0
+17:48:46.808534 IP 10.0.1.113.36665 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 34, ack 21, win 211, options [nop,nop,TS val 1768046733 ecr 1224227422], length 0
+17:48:46.808550 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36665: Flags [.], ack 35, win 46, options [nop,nop,TS val 1224227431 ecr 1768046733], length 0
+17:48:46.808836 IP 10.0.1.113.36667 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046733 ecr 1224227422], length 0
+17:48:46.808856 IP 10.0.1.113.36667 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 22, ack 24, win 211, options [nop,nop,TS val 1768046733 ecr 1224227422], length 0
+17:48:46.808872 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36667: Flags [.], ack 23, win 46, options [nop,nop,TS val 1224227432 ecr 1768046733], length 0
+17:48:46.815002 IP 10.0.1.113.36670 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046734 ecr 1224227429], length 0
+17:48:46.815023 IP 10.0.1.113.36670 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 25, ack 23, win 211, options [nop,nop,TS val 1768046734 ecr 1224227429], length 0
+17:48:46.815039 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36670: Flags [.], ack 26, win 46, options [nop,nop,TS val 1224227438 ecr 1768046734], length 0
+17:48:47.152037 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [S], seq 2894743812, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.152067 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [S.], seq 2446213536, ack 2894743813, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.152174 IP adm103.permissiondata.com.37377 > resolver2.datapipe.net.domain: 16070+ PTR? 105.211.17.65.in-addr.arpa. (44)
+17:48:47.152685 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.37377: 16070 1/0/0 PTR mx3.pdoffers.com. (74)
+17:48:47.152846 IP adm103.permissiondata.com.60227 > resolver2.datapipe.net.domain: 63544+ PTR? 116.155.168.192.in-addr.arpa. (46)
+17:48:47.153331 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.60227: 63544 NXDomain 0/1/0 (95)
+17:48:47.161562 IP 192.168.155.116.59128 > mx3.pdoffers.com.http: Flags [S], seq 3376569012, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.161588 IP mx3.pdoffers.com.http > 192.168.155.116.59128: Flags [S.], seq 2448155660, ack 3376569013, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.161686 IP 192.168.155.116.59129 > mx3.pdoffers.com.http: Flags [S], seq 3445544704, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.161711 IP mx3.pdoffers.com.http > 192.168.155.116.59129: Flags [S.], seq 2454869138, ack 3445544705, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.161787 IP 192.168.155.116.59130 > mx3.pdoffers.com.http: Flags [S], seq 2761951999, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.161820 IP mx3.pdoffers.com.http > 192.168.155.116.59130: Flags [S.], seq 2454203268, ack 2761952000, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.161846 IP 192.168.155.116.59131 > mx3.pdoffers.com.http: Flags [S], seq 3999925411, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.161873 IP mx3.pdoffers.com.http > 192.168.155.116.59131: Flags [S.], seq 2447116628, ack 3999925412, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.161914 IP 192.168.155.116.59132 > mx3.pdoffers.com.http: Flags [S], seq 2586777902, win 8192, options [mss 1260,nop,wscale 8,nop,nop,sackOK], length 0
+17:48:47.161937 IP mx3.pdoffers.com.http > 192.168.155.116.59132: Flags [S.], seq 2452806840, ack 2586777903, win 5840, options [mss 1460,nop,nop,sackOK,nop,wscale 7], length 0
+17:48:47.167765 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.183013 IP 192.168.155.116.59129 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.183029 IP 192.168.155.116.59132 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.183072 IP 192.168.155.116.59128 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.183141 IP 192.168.155.116.59131 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.183153 IP 192.168.155.116.59130 > mx3.pdoffers.com.http: Flags [.], ack 1, win 260, length 0
+17:48:47.220060 IP 10.0.1.113 > adm103.permissiondata.com: ICMP echo request, id 7280, seq 1, length 64
+17:48:47.220078 IP adm103.permissiondata.com > 10.0.1.113: ICMP echo reply, id 7280, seq 1, length 64
+17:48:47.521786 ARP, Request who-has 65.17.211.109 tell 65.17.211.65, length 46
+17:48:47.524253 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [P.], seq 1:686, ack 1, win 260, length 685
+17:48:47.524287 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], ack 686, win 57, length 0
+17:48:47.528222 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 282282827:282282832, ack 1342131220, win 7377, options [nop,nop,TS val 1224228151 ecr 2865364661], length 5
+17:48:47.537716 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 1:12, ack 5, win 774, options [nop,nop,TS val 2865382944 ecr 1224228151], length 11
+17:48:47.537741 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 12, win 7377, options [nop,nop,TS val 1224228161 ecr 2865382944], length 0
+17:48:47.537896 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 5:395, ack 12, win 7377, options [nop,nop,TS val 1224228161 ecr 2865382944], length 390
+17:48:47.547512 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 12:444, ack 395, win 774, options [nop,nop,TS val 2865382954 ecr 1224228161], length 432
+17:48:47.548210 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 395:494, ack 444, win 7377, options [nop,nop,TS val 1224228171 ecr 2865382954], length 99
+17:48:47.557862 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 444:1782, ack 494, win 774, options [nop,nop,TS val 2865382964 ecr 1224228171], length 1338
+17:48:47.557880 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 1782:2159, ack 494, win 774, options [nop,nop,TS val 2865382964 ecr 1224228171], length 377
+17:48:47.557904 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 2159, win 7377, options [nop,nop,TS val 1224228181 ecr 2865382964], length 0
+17:48:47.558517 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 494:699, ack 2159, win 7377, options [nop,nop,TS val 1224228181 ecr 2865382964], length 205
+17:48:47.594620 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 2159:2808, ack 699, win 774, options [nop,nop,TS val 2865383001 ecr 1224228181], length 649
+17:48:47.596551 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 699:1233, ack 2808, win 7377, options [nop,nop,TS val 1224228219 ecr 2865383001], length 534
+17:48:47.611576 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 2808:3953, ack 1233, win 774, options [nop,nop,TS val 2865383017 ecr 1224228219], length 1145
+17:48:47.613679 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 1233:1501, ack 3953, win 7377, options [nop,nop,TS val 1224228236 ecr 2865383017], length 268
+17:48:47.629205 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 3953:4072, ack 1501, win 774, options [nop,nop,TS val 2865383036 ecr 1224228236], length 119
+17:48:47.629516 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 1501:1985, ack 4072, win 7377, options [nop,nop,TS val 1224228252 ecr 2865383036], length 484
+17:48:47.639333 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 4072:5410, ack 1985, win 774, options [nop,nop,TS val 2865383046 ecr 1224228252], length 1338
+17:48:47.639350 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 5410:6748, ack 1985, win 774, options [nop,nop,TS val 2865383046 ecr 1224228252], length 1338
+17:48:47.639357 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 6748:7733, ack 1985, win 774, options [nop,nop,TS val 2865383046 ecr 1224228252], length 985
+17:48:47.639381 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 6748, win 7377, options [nop,nop,TS val 1224228262 ecr 2865383046], length 0
+17:48:47.639866 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 1985:2741, ack 7733, win 7377, options [nop,nop,TS val 1224228262 ecr 2865383046], length 756
+17:48:47.654442 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 7733:8999, ack 2741, win 774, options [nop,nop,TS val 2865383061 ecr 1224228262], length 1266
+17:48:47.654769 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 2741:3047, ack 8999, win 7377, options [nop,nop,TS val 1224228277 ecr 2865383061], length 306
+17:48:47.664518 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 8999:9719, ack 3047, win 774, options [nop,nop,TS val 2865383071 ecr 1224228277], length 720
+17:48:47.664875 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 3047:3323, ack 9719, win 7377, options [nop,nop,TS val 1224228287 ecr 2865383071], length 276
+17:48:47.674991 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 9719:11057, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 1338
+17:48:47.675009 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 11057:12395, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 1338
+17:48:47.675016 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 12395:13733, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 1338
+17:48:47.675022 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 13733:15071, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 1338
+17:48:47.675028 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [.], seq 15071:16409, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 1338
+17:48:47.675033 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 16409:16663, ack 3323, win 774, options [nop,nop,TS val 2865383081 ecr 1224228287], length 254
+17:48:47.675108 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 12395, win 7377, options [nop,nop,TS val 1224228298 ecr 2865383081], length 0
+17:48:47.675117 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 15071, win 7377, options [nop,nop,TS val 1224228298 ecr 2865383081], length 0
+17:48:47.675125 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 16663, win 7377, options [nop,nop,TS val 1224228298 ecr 2865383081], length 0
+17:48:47.690621 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 1:3781, ack 686, win 57, length 3780
+17:48:47.714001 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 2521, win 260, length 0
+17:48:47.714027 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 3781:7561, ack 686, win 57, length 3780
+17:48:47.733569 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 6301, win 260, length 0
+17:48:47.733594 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 7561:12601, ack 686, win 57, length 5040
+17:48:47.740891 ARP, Request who-has 65.17.211.99 tell mx1.pdoffers.com, length 46
+17:48:47.752504 ARP, Request who-has 65.17.211.121 tell 65.17.211.65, length 46
+17:48:47.752513 ARP, Request who-has 65.17.211.118 tell 65.17.211.65, length 46
+17:48:47.752517 ARP, Request who-has mx5.pdoffers.com tell 65.17.211.65, length 46
+17:48:47.752520 ARP, Request who-has 65.17.211.72 tell 65.17.211.65, length 46
+17:48:47.752655 IP adm103.permissiondata.com.44946 > resolver2.datapipe.net.domain: 60013+ PTR? 116.211.17.65.in-addr.arpa. (44)
+17:48:47.753167 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.44946: 60013 1/0/0 PTR mx5.pdoffers.com. (74)
+17:48:47.753330 IP adm103.permissiondata.com.47835 > resolver2.datapipe.net.domain: 43167+ PTR? 72.211.17.65.in-addr.arpa. (43)
+17:48:47.753814 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.47835: 43167 NXDomain 0/1/0 (106)
+17:48:47.757615 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 8821, win 260, length 0
+17:48:47.757641 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 12601:16381, ack 686, win 57, length 3780
+17:48:47.758961 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 11341, win 260, length 0
+17:48:47.758984 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 16381:20161, ack 686, win 57, length 3780
+17:48:47.785041 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 13861, win 260, length 0
+17:48:47.785067 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 20161:23941, ack 686, win 57, length 3780
+17:48:47.785075 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 17641, win 260, length 0
+17:48:47.785089 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 23941:28981, ack 686, win 57, length 5040
+17:48:47.787172 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 20161, win 260, length 0
+17:48:47.787322 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 28981:32761, ack 686, win 57, length 3780
+17:48:47.809105 IP 10.0.1.113.36676 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 4183259510, win 26883, options [mss 1350,sackOK,TS val 1768046983 ecr 0,nop,wscale 7], length 0
+17:48:47.809136 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36676: Flags [S.], seq 2456700777, ack 4183259511, win 5792, options [mss 1460,sackOK,TS val 1224228432 ecr 1768046983,nop,wscale 7], length 0
+17:48:47.811139 IP 10.0.1.113.36677 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 1144445236, win 26883, options [mss 1350,sackOK,TS val 1768046983 ecr 0,nop,wscale 7], length 0
+17:48:47.811167 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36677: Flags [S.], seq 2463226931, ack 1144445237, win 5792, options [mss 1460,sackOK,TS val 1224228434 ecr 1768046983,nop,wscale 7], length 0
+17:48:47.816228 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 22681, win 260, length 0
+17:48:47.816253 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 32761:36541, ack 686, win 57, length 3780
+17:48:47.816261 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 26461, win 260, length 0
+17:48:47.816275 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 36541:41581, ack 686, win 57, length 5040
+17:48:47.816281 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 30241, win 260, length 0
+17:48:47.816293 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 41581:46621, ack 686, win 57, length 5040
+17:48:47.816298 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 32761, win 260, length 0
+17:48:47.816305 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 46621:50401, ack 686, win 57, length 3780
+17:48:47.818448 IP 10.0.1.113.36676 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046985 ecr 1224228432], length 0
+17:48:47.818480 IP 10.0.1.113.36676 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:30, ack 1, win 211, options [nop,nop,TS val 1768046985 ecr 1224228432], length 29
+17:48:47.818496 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36676: Flags [.], ack 30, win 46, options [nop,nop,TS val 1224228441 ecr 1768046985], length 0
+17:48:47.818666 IP adm103.permissiondata.com.56157 > resolver2.datapipe.net.domain: 37474+ A? zbx.internal.permissiondata.com. (49)
+17:48:47.818677 IP adm103.permissiondata.com.56157 > resolver2.datapipe.net.domain: 48706+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:47.819165 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.56157: 37474 1/0/0 A 10.0.1.113 (65)
+17:48:47.819180 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.56157: 48706 0/1/0 (131)
+17:48:47.820366 IP 10.0.1.113.36677 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046986 ecr 1224228434], length 0
+17:48:47.820394 IP 10.0.1.113.36677 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:27, ack 1, win 211, options [nop,nop,TS val 1768046986 ecr 1224228434], length 26
+17:48:47.820409 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36677: Flags [.], ack 27, win 46, options [nop,nop,TS val 1224228443 ecr 1768046986], length 0
+17:48:47.820569 IP adm103.permissiondata.com.39463 > resolver2.datapipe.net.domain: 31513+ A? zbx.internal.permissiondata.com. (49)
+17:48:47.820586 IP adm103.permissiondata.com.39463 > resolver2.datapipe.net.domain: 49033+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:47.821062 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.39463: 31513 1/0/0 A 10.0.1.113 (65)
+17:48:47.821076 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.39463: 49033 0/1/0 (131)
+17:48:47.821307 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36677: Flags [P.], seq 1:6, ack 27, win 46, options [nop,nop,TS val 1224228444 ecr 1768046986], length 5
+17:48:47.821320 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36677: Flags [FP.], seq 6:23, ack 27, win 46, options [nop,nop,TS val 1224228444 ecr 1768046986], length 17
+17:48:47.829829 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36676: Flags [P.], seq 1:6, ack 30, win 46, options [nop,nop,TS val 1224228452 ecr 1768046985], length 5
+17:48:47.829848 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36676: Flags [FP.], seq 6:20, ack 30, win 46, options [nop,nop,TS val 1224228452 ecr 1768046985], length 14
+17:48:47.830540 IP 10.0.1.113.36677 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046988 ecr 1224228444], length 0
+17:48:47.830562 IP 10.0.1.113.36677 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 27, ack 24, win 211, options [nop,nop,TS val 1768046988 ecr 1224228444], length 0
+17:48:47.830578 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36677: Flags [.], ack 28, win 46, options [nop,nop,TS val 1224228453 ecr 1768046988], length 0
+17:48:47.839036 IP 10.0.1.113.36676 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046990 ecr 1224228452], length 0
+17:48:47.839059 IP 10.0.1.113.36676 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 30, ack 21, win 211, options [nop,nop,TS val 1768046990 ecr 1224228452], length 0
+17:48:47.839075 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36676: Flags [.], ack 31, win 46, options [nop,nop,TS val 1224228462 ecr 1768046990], length 0
+17:48:47.844088 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 35281, win 260, length 0
+17:48:47.844112 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 50401:54181, ack 686, win 57, length 3780
+17:48:47.844120 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 39061, win 260, length 0
+17:48:47.844134 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], seq 54181:57961, ack 686, win 57, length 3780
+17:48:47.844142 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [FP.], seq 57961:58330, ack 686, win 57, length 369
+17:48:47.844147 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 41581, win 260, length 0
+17:48:47.844155 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 45361, win 260, length 0
+17:48:47.844161 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 49141, win 260, length 0
+17:48:47.855176 IP 10.0.1.113.36696 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 433866379, win 26883, options [mss 1350,sackOK,TS val 1768046994 ecr 0,nop,wscale 7], length 0
+17:48:47.855204 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36696: Flags [S.], seq 2468725200, ack 433866380, win 5792, options [mss 1460,sackOK,TS val 1224228478 ecr 1768046994,nop,wscale 7], length 0
+17:48:47.864657 IP 10.0.1.113.36696 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768046997 ecr 1224228478], length 0
+17:48:47.864686 IP 10.0.1.113.36696 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:26, ack 1, win 211, options [nop,nop,TS val 1768046997 ecr 1224228478], length 25
+17:48:47.864702 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36696: Flags [.], ack 26, win 46, options [nop,nop,TS val 1224228488 ecr 1768046997], length 0
+17:48:47.864864 IP adm103.permissiondata.com.33840 > resolver2.datapipe.net.domain: 8444+ A? zbx.internal.permissiondata.com. (49)
+17:48:47.864877 IP adm103.permissiondata.com.33840 > resolver2.datapipe.net.domain: 62657+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:47.865464 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.33840: 8444 1/0/0 A 10.0.1.113 (65)
+17:48:47.865479 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.33840: 62657 0/1/0 (131)
+17:48:47.865556 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36696: Flags [P.], seq 1:6, ack 26, win 46, options [nop,nop,TS val 1224228488 ecr 1768046997], length 5
+17:48:47.865568 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36696: Flags [FP.], seq 6:22, ack 26, win 46, options [nop,nop,TS val 1224228488 ecr 1768046997], length 16
+17:48:47.872700 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 51661, win 260, length 0
+17:48:47.872729 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 55441, win 260, length 0
+17:48:47.872741 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [.], ack 58331, win 260, length 0
+17:48:47.874804 IP 10.0.1.113.36696 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768046999 ecr 1224228488], length 0
+17:48:47.874826 IP 10.0.1.113.36696 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 26, ack 23, win 211, options [nop,nop,TS val 1768046999 ecr 1224228488], length 0
+17:48:47.874841 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36696: Flags [.], ack 27, win 46, options [nop,nop,TS val 1224228498 ecr 1768046999], length 0
+17:48:47.912684 IP 192.168.155.116.59127 > mx3.pdoffers.com.http: Flags [F.], seq 686, ack 58331, win 260, length 0
+17:48:47.912706 IP mx3.pdoffers.com.http > 192.168.155.116.59127: Flags [.], ack 687, win 57, length 0
+17:48:47.924863 IP 192.168.155.116.59129 > mx3.pdoffers.com.http: Flags [P.], seq 1:776, ack 1, win 260, length 775
+17:48:47.924895 IP mx3.pdoffers.com.http > 192.168.155.116.59129: Flags [.], ack 776, win 58, length 0
+17:48:47.930731 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 3323:3328, ack 16663, win 7377, options [nop,nop,TS val 1224228553 ecr 2865383081], length 5
+17:48:47.940890 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 16663:16674, ack 3328, win 774, options [nop,nop,TS val 2865383347 ecr 1224228553], length 11
+17:48:47.941040 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [P.], seq 3328:3502, ack 16674, win 7377, options [nop,nop,TS val 1224228564 ecr 2865383347], length 174
+17:48:47.950958 IP ip-10-0-1-84.mysql > adm103.permissiondata.com.51410: Flags [P.], seq 16674:16921, ack 3502, win 774, options [nop,nop,TS val 2865383357 ecr 1224228564], length 247
+17:48:47.956612 IP adm103.permissiondata.com.41145 > resolver2.datapipe.net.domain: 55175+ A? web1.beeheard.com. (35)
+17:48:47.956627 IP adm103.permissiondata.com.41145 > resolver2.datapipe.net.domain: 18734+ AAAA? web1.beeheard.com. (35)
+17:48:47.957115 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.41145: 55175 1/0/0 A 65.17.211.77 (51)
+17:48:47.990685 IP adm103.permissiondata.com.51410 > ip-10-0-1-84.mysql: Flags [.], ack 16921, win 7377, options [nop,nop,TS val 1224228614 ecr 2865383357], length 0
+17:48:48.170777 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.41145: 18734 0/1/0 (117)
+17:48:48.170969 IP adm103.permissiondata.com.47637 > 65.17.211.77.http: Flags [S], seq 2466860103, win 5840, options [mss 1460,sackOK,TS val 1224228794 ecr 0,nop,wscale 7], length 0
+17:48:48.171077 IP adm103.permissiondata.com.59738 > resolver2.datapipe.net.domain: 33906+ PTR? 77.211.17.65.in-addr.arpa. (43)
+17:48:48.171204 IP 65.17.211.77.http > adm103.permissiondata.com.47637: Flags [S.], seq 1401688093, ack 2466860104, win 5792, options [mss 1460,sackOK,TS val 3994678744 ecr 1224228794,nop,wscale 8], length 0
+17:48:48.171231 IP adm103.permissiondata.com.47637 > 65.17.211.77.http: Flags [.], ack 1, win 46, options [nop,nop,TS val 1224228794 ecr 3994678744], length 0
+17:48:48.171482 IP adm103.permissiondata.com.47637 > 65.17.211.77.http: Flags [P.], seq 1:119, ack 1, win 46, options [nop,nop,TS val 1224228794 ecr 3994678744], length 118
+17:48:48.171596 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.59738: 33906 NXDomain 0/1/0 (106)
+17:48:48.171734 IP 65.17.211.77.http > adm103.permissiondata.com.47637: Flags [.], ack 119, win 23, options [nop,nop,TS val 3994678745 ecr 1224228794], length 0
+17:48:48.221186 IP 10.0.1.113 > adm103.permissiondata.com: ICMP echo request, id 7280, seq 2, length 64
+17:48:48.221207 IP adm103.permissiondata.com > 10.0.1.113: ICMP echo reply, id 7280, seq 2, length 64
+17:48:48.549944 STP 802.1w, Rapid STP, Flags [Learn, Forward], bridge-id 82c3.00:17:0f:ed:a5:c0.8081, length 43
+17:48:48.615689 IP 10.0.1.113.36701 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 1559240658, win 26883, options [mss 1350,sackOK,TS val 1768047184 ecr 0,nop,wscale 7], length 0
+17:48:48.615724 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36701: Flags [S.], seq 2479123880, ack 1559240659, win 5792, options [mss 1460,sackOK,TS val 1224229239 ecr 1768047184,nop,wscale 7], length 0
+17:48:48.624974 IP 10.0.1.113.36701 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768047187 ecr 1224229239], length 0
+17:48:48.625008 IP 10.0.1.113.36701 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:30, ack 1, win 211, options [nop,nop,TS val 1768047187 ecr 1224229239], length 29
+17:48:48.625025 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36701: Flags [.], ack 30, win 46, options [nop,nop,TS val 1224229248 ecr 1768047187], length 0
+17:48:48.625197 IP adm103.permissiondata.com.42517 > resolver2.datapipe.net.domain: 244+ A? zbx.internal.permissiondata.com. (49)
+17:48:48.625208 IP adm103.permissiondata.com.42517 > resolver2.datapipe.net.domain: 50747+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:48.625689 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.42517: 244 1/0/0 A 10.0.1.113 (65)
+17:48:48.625706 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.42517: 50747 0/1/0 (131)
+17:48:48.636023 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36701: Flags [P.], seq 1:6, ack 30, win 46, options [nop,nop,TS val 1224229259 ecr 1768047187], length 5
+17:48:48.636044 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36701: Flags [FP.], seq 6:21, ack 30, win 46, options [nop,nop,TS val 1224229259 ecr 1768047187], length 15
+17:48:48.645291 IP 10.0.1.113.36701 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768047192 ecr 1224229259], length 0
+17:48:48.645314 IP 10.0.1.113.36701 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 30, ack 22, win 211, options [nop,nop,TS val 1768047192 ecr 1224229259], length 0
+17:48:48.645330 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36701: Flags [.], ack 31, win 46, options [nop,nop,TS val 1224229268 ecr 1768047192], length 0
+17:48:48.661231 ARP, Request who-has db102.permissiondata.com tell 65.17.211.65, length 46
+17:48:48.723442 IP 10.0.1.113.36717 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 3708753605, win 26883, options [mss 1350,sackOK,TS val 1768047211 ecr 0,nop,wscale 7], length 0
+17:48:48.723469 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36717: Flags [S.], seq 2482109677, ack 3708753606, win 5792, options [mss 1460,sackOK,TS val 1224229346 ecr 1768047211,nop,wscale 7], length 0
+17:48:48.732692 IP 10.0.1.113.36717 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768047214 ecr 1224229346], length 0
+17:48:48.732724 IP 10.0.1.113.36717 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:26, ack 1, win 211, options [nop,nop,TS val 1768047214 ecr 1224229346], length 25
+17:48:48.732740 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36717: Flags [.], ack 26, win 46, options [nop,nop,TS val 1224229356 ecr 1768047214], length 0
+17:48:48.732901 IP adm103.permissiondata.com.35114 > resolver2.datapipe.net.domain: 12020+ A? zbx.internal.permissiondata.com. (49)
+17:48:48.732912 IP adm103.permissiondata.com.35114 > resolver2.datapipe.net.domain: 3769+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:48.733367 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.35114: 12020 1/0/0 A 10.0.1.113 (65)
+17:48:48.733382 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.35114: 3769 0/1/0 (131)
+17:48:48.733459 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36717: Flags [P.], seq 1:6, ack 26, win 46, options [nop,nop,TS val 1224229356 ecr 1768047214], length 5
+17:48:48.733472 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36717: Flags [FP.], seq 6:22, ack 26, win 46, options [nop,nop,TS val 1224229356 ecr 1768047214], length 16
+17:48:48.740756 ARP, Request who-has 65.17.211.99 tell mx1.pdoffers.com, length 46
+17:48:48.742742 IP 10.0.1.113.36717 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768047216 ecr 1224229356], length 0
+17:48:48.742764 IP 10.0.1.113.36717 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 26, ack 23, win 211, options [nop,nop,TS val 1768047216 ecr 1224229356], length 0
+17:48:48.742779 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36717: Flags [.], ack 27, win 46, options [nop,nop,TS val 1224229366 ecr 1768047216], length 0
+17:48:48.752546 ARP, Request who-has 65.17.211.118 tell 65.17.211.65, length 46
+17:48:48.752556 ARP, Request who-has 65.17.211.109 tell 65.17.211.65, length 46
+17:48:48.752560 ARP, Request who-has 65.17.211.84 tell 65.17.211.65, length 46
+17:48:48.752563 ARP, Request who-has 65.17.211.73 tell 65.17.211.65, length 46
+17:48:48.752566 ARP, Request who-has 65.17.211.71 tell 65.17.211.65, length 46
+17:48:48.752569 ARP, Request who-has 65.17.211.110 tell 65.17.211.65, length 46
+17:48:48.752796 IP adm103.permissiondata.com.55967 > resolver2.datapipe.net.domain: 58554+ PTR? 84.211.17.65.in-addr.arpa. (43)
+17:48:48.753325 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.55967: 58554 NXDomain 0/1/0 (106)
+17:48:48.753490 IP adm103.permissiondata.com.42200 > resolver2.datapipe.net.domain: 29824+ PTR? 73.211.17.65.in-addr.arpa. (43)
+17:48:48.754010 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.42200: 29824 NXDomain 0/1/0 (106)
+17:48:48.754134 IP adm103.permissiondata.com.47696 > resolver2.datapipe.net.domain: 45276+ PTR? 71.211.17.65.in-addr.arpa. (43)
+17:48:48.754594 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.47696: 45276 NXDomain 0/1/0 (106)
+17:48:48.754717 IP adm103.permissiondata.com.59214 > resolver2.datapipe.net.domain: 64663+ PTR? 110.211.17.65.in-addr.arpa. (44)
+17:48:48.755188 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.59214: 64663 NXDomain 0/1/0 (107)
+17:48:48.756802 IP 140.239.3.41.targus-getdata3 > adm103.permissiondata.com.59338: Flags [P.], seq 3470063858:3470063873, ack 626531645, win 65535, options [nop,nop,TS val 1483403235 ecr 1224214524], length 15
+17:48:48.756831 IP adm103.permissiondata.com.59338 > 140.239.3.41.targus-getdata3: Flags [.], ack 15, win 46, options [nop,nop,TS val 1224229380 ecr 1483403235], length 0
+17:48:48.756913 IP adm103.permissiondata.com.59338 > 140.239.3.41.targus-getdata3: Flags [P.], seq 1:16, ack 15, win 46, options [nop,nop,TS val 1224229380 ecr 1483403235], length 15
+17:48:48.757023 IP adm103.permissiondata.com.43141 > resolver2.datapipe.net.domain: 32975+ PTR? 41.3.239.140.in-addr.arpa. (43)
+17:48:48.757517 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.43141: 32975 NXDomain 0/1/0 (123)
+17:48:48.826927 IP 140.239.3.41.targus-getdata3 > adm103.permissiondata.com.59338: Flags [.], ack 16, win 65535, options [nop,nop,TS val 1483403306 ecr 1224229380], length 0
+17:48:49.224849 IP 192.168.155.155.54013 > adm103.permissiondata.com.zabbix-trapper: Flags [S], seq 1250887119, win 14600, options [mss 1350,sackOK,TS val 4057098540 ecr 0,nop,wscale 7], length 0
+17:48:49.224886 IP adm103.permissiondata.com.zabbix-trapper > 192.168.155.155.54013: Flags [R.], seq 0, ack 1250887120, win 0, length 0
+17:48:49.225015 IP adm103.permissiondata.com.51254 > resolver2.datapipe.net.domain: 56478+ PTR? 155.155.168.192.in-addr.arpa. (46)
+17:48:49.225533 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.51254: 56478 NXDomain 0/1/0 (95)
+17:48:49.511149 ARP, Request who-has mx4.pdoffers.com tell 65.17.211.65, length 46
+17:48:49.511258 IP adm103.permissiondata.com.56523 > resolver2.datapipe.net.domain: 6168+ PTR? 94.211.17.65.in-addr.arpa. (43)
+17:48:49.511781 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.56523: 6168 1/0/0 PTR mx4.pdoffers.com. (73)
+17:48:49.581188 ARP, Request who-has 65.17.211.84 tell 65.17.211.65, length 46
+17:48:49.629905 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [S], seq 4038937035, win 5840, options [mss 1350,sackOK,TS val 3663401978 ecr 0,nop,wscale 7], length 0
+17:48:49.629933 IP adm103.permissiondata.com.10808 > bond0.monitoring03.datapipe.net.34241: Flags [S.], seq 2495591228, ack 4038937036, win 5792, options [mss 1460,sackOK,TS val 1224230253 ecr 3663401978,nop,wscale 7], length 0
+17:48:49.630100 IP adm103.permissiondata.com.59097 > resolver2.datapipe.net.domain: 61136+ PTR? 84.131.106.64.in-addr.arpa. (44)
+17:48:49.630457 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [.], ack 1, win 46, options [nop,nop,TS val 3663401978 ecr 1224230253], length 0
+17:48:49.630580 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.59097: 61136 1/0/0 PTR bond0.monitoring03.datapipe.net. (89)
+17:48:49.645041 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [P.], seq 1:500, ack 1, win 46, options [nop,nop,TS val 3663401993 ecr 1224230253], length 499
+17:48:49.645060 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [F.], seq 500, ack 1, win 46, options [nop,nop,TS val 3663401993 ecr 1224230253], length 0
+17:48:49.645136 IP adm103.permissiondata.com.10808 > bond0.monitoring03.datapipe.net.34241: Flags [.], ack 500, win 54, options [nop,nop,TS val 1224230268 ecr 3663401993], length 0
+17:48:49.684854 IP adm103.permissiondata.com.10808 > bond0.monitoring03.datapipe.net.34241: Flags [.], ack 501, win 54, options [nop,nop,TS val 1224230308 ecr 3663401993], length 0
+17:48:49.719258 IP adm103.permissiondata.com.10808 > bond0.monitoring03.datapipe.net.34241: Flags [P.], seq 1:501, ack 501, win 54, options [nop,nop,TS val 1224230342 ecr 3663401993], length 500
+17:48:49.719464 IP adm103.permissiondata.com.10808 > bond0.monitoring03.datapipe.net.34241: Flags [F.], seq 501, ack 501, win 54, options [nop,nop,TS val 1224230342 ecr 3663401993], length 0
+17:48:49.719846 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [.], ack 501, win 54, options [nop,nop,TS val 3663402068 ecr 1224230342], length 0
+17:48:49.719880 IP bond0.monitoring03.datapipe.net.34241 > adm103.permissiondata.com.10808: Flags [.], ack 502, win 54, options [nop,nop,TS val 3663402068 ecr 1224230342], length 0
+17:48:49.740763 ARP, Request who-has 65.17.211.99 tell mx1.pdoffers.com, length 46
+17:48:49.743048 IP 10.0.1.113.36727 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 954775361, win 26883, options [mss 1350,sackOK,TS val 1768047466 ecr 0,nop,wscale 7], length 0
+17:48:49.743076 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36727: Flags [S.], seq 2493806360, ack 954775362, win 5792, options [mss 1460,sackOK,TS val 1224230366 ecr 1768047466,nop,wscale 7], length 0
+17:48:49.752394 IP 10.0.1.113.36727 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768047469 ecr 1224230366], length 0
+17:48:49.752425 IP 10.0.1.113.36727 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:32, ack 1, win 211, options [nop,nop,TS val 1768047469 ecr 1224230366], length 31
+17:48:49.752440 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36727: Flags [.], ack 32, win 46, options [nop,nop,TS val 1224230375 ecr 1768047469], length 0
+17:48:49.752555 ARP, Request who-has 65.17.211.109 tell 65.17.211.65, length 46
+17:48:49.752565 ARP, Request who-has db102.permissiondata.com tell 65.17.211.65, length 46
+17:48:49.752569 ARP, Request who-has mx7.pdoffers.com tell 65.17.211.65, length 46
+17:48:49.752581 IP adm103.permissiondata.com.46190 > resolver2.datapipe.net.domain: 21227+ A? zbx.internal.permissiondata.com. (49)
+17:48:49.752588 IP adm103.permissiondata.com.46190 > resolver2.datapipe.net.domain: 49193+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:49.752824 IP adm103.permissiondata.com.52139 > resolver2.datapipe.net.domain: 59103+ PTR? 117.211.17.65.in-addr.arpa. (44)
+17:48:49.752989 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.46190: 21227 1/0/0 A 10.0.1.113 (65)
+17:48:49.753005 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.46190: 49193 0/1/0 (131)
+17:48:49.753289 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.52139: 59103 1/0/0 PTR mx7.pdoffers.com. (74)
+17:48:49.762871 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36727: Flags [P.], seq 1:6, ack 32, win 46, options [nop,nop,TS val 1224230385 ecr 1768047469], length 5
+17:48:49.762892 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36727: Flags [FP.], seq 6:15, ack 32, win 46, options [nop,nop,TS val 1224230386 ecr 1768047469], length 9
+17:48:49.772210 IP 10.0.1.113.36727 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 6, win 211, options [nop,nop,TS val 1768047473 ecr 1224230385], length 0
+17:48:49.772233 IP 10.0.1.113.36727 > adm103.permissiondata.com.zabbix-agent: Flags [F.], seq 32, ack 16, win 211, options [nop,nop,TS val 1768047473 ecr 1224230386], length 0
+17:48:49.772250 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36727: Flags [.], ack 33, win 46, options [nop,nop,TS val 1224230395 ecr 1768047473], length 0
+17:48:49.793728 IP 10.0.1.113.36737 > adm103.permissiondata.com.zabbix-agent: Flags [S], seq 2121963638, win 26883, options [mss 1350,sackOK,TS val 1768047479 ecr 0,nop,wscale 7], length 0
+17:48:49.793769 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36737: Flags [S.], seq 2491490067, ack 2121963639, win 5792, options [mss 1460,sackOK,TS val 1224230417 ecr 1768047479,nop,wscale 7], length 0
+17:48:49.803139 IP 10.0.1.113.36737 > adm103.permissiondata.com.zabbix-agent: Flags [.], ack 1, win 211, options [nop,nop,TS val 1768047481 ecr 1224230417], length 0
+17:48:49.803176 IP 10.0.1.113.36737 > adm103.permissiondata.com.zabbix-agent: Flags [P.], seq 1:26, ack 1, win 211, options [nop,nop,TS val 1768047481 ecr 1224230417], length 25
+17:48:49.803193 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36737: Flags [.], ack 26, win 46, options [nop,nop,TS val 1224230426 ecr 1768047481], length 0
+17:48:49.803411 IP 140.239.3.41.targus-getdata3 > adm103.permissiondata.com.51382: Flags [P.], seq 1541345960:1541345975, ack 668220386, win 65535, options [nop,nop,TS val 1483404281 ecr 1224214525], length 15
+17:48:49.803436 IP adm103.permissiondata.com.48212 > resolver2.datapipe.net.domain: 34912+ A? zbx.internal.permissiondata.com. (49)
+17:48:49.803445 IP adm103.permissiondata.com.48212 > resolver2.datapipe.net.domain: 35505+ AAAA? zbx.internal.permissiondata.com. (49)
+17:48:49.803446 IP adm103.permissiondata.com.51382 > 140.239.3.41.targus-getdata3: Flags [.], ack 15, win 46, options [nop,nop,TS val 1224230426 ecr 1483404281], length 0
+17:48:49.803538 IP adm103.permissiondata.com.51382 > 140.239.3.41.targus-getdata3: Flags [P.], seq 1:16, ack 15, win 46, options [nop,nop,TS val 1224230426 ecr 1483404281], length 15
+17:48:49.803892 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.48212: 34912 1/0/0 A 10.0.1.113 (65)
+17:48:49.803908 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.48212: 35505 0/1/0 (131)
+17:48:49.803997 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36737: Flags [P.], seq 1:6, ack 26, win 46, options [nop,nop,TS val 1224230427 ecr 1768047481], length 5
+17:48:49.804010 IP adm103.permissiondata.com.zabbix-agent > 10.0.1.113.36737: Flags [FP.], seq 6:22, ack 26, win 46, options [nop,nop,TS val 1224230427 ecr 1768047481], length 16
+17:48:49.809809 IP 192.168.155.164.59208 > adm103.permissiondata.com.ssh: Flags [P.], seq 3781408722:3781408770, ack 3063487544, win 4096, options [nop,nop,TS val 1642638806 ecr 1224225305], length 48
+17:48:49.810058 IP adm103.permissiondata.com.42905 > resolver2.datapipe.net.domain: 21743+ PTR? 164.155.168.192.in-addr.arpa. (46)
+17:48:49.810636 IP resolver2.datapipe.net.domain > adm103.permissiondata.com.42905: 21743 NXDomain 0/1/0 (95)
