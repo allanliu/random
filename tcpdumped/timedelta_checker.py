@@ -57,5 +57,5 @@ def cli_args():
 
 if __name__ == '__main__':
     ARGS = cli_args()
-    if not check_tcpdump_by_time(ARGS.location, ARGS.max_delta):
+    if check_tcpdump_by_time(ARGS.location, ARGS.max_delta):
         sys.exit(1)
